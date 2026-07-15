@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trasha Agencies — Land for Sale in Njoro, Nakuru County</title>
+<meta name="description" content="Trasha Agencies sells registered 50 by 100 plots in Njoro, Nakuru County. Genuine title deeds, visible beacons, flexible payment plans.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="wrap nav__inner">
+    <a href="#top" class="brand">
+      <img src="img/logo.png" alt="Trasha Commercial Agencies logo" class="brand__mark">
+      <span class="brand__name">Trasha Agencies</span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#plots">Available Plots</a>
+      <a href="#njoro">Why Njoro</a>
+      <a href="#process">How It Works</a>
+      <a href="#voices">Voices</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--small btn--clay nav__cta">Book a site visit</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="wrap hero__inner">
+    <div class="hero__copy reveal">
+      <p class="eyebrow">Nakuru County · Njoro Sub-County</p>
+      <h1 class="hero__title">Own a piece of Njoro.<br>50 <span class="hero__by">×</span> 100, on the ground,<br>in your name.</h1>
+      <p class="hero__lead">Trasha Agencies sells registered plots across Njoro — surveyed, beaconed, and backed by a genuine title deed. No middlemen, no disputes, no surprises.</p>
+      <div class="hero__actions">
+        <a href="#plots" class="btn btn--clay">View available plots</a>
+        <a href="#contact" class="btn btn--ghost">Book a site visit</a>
+      </div>
+      <dl class="hero__stats">
+        <div><dt>140+</dt><dd>plots sold since 2019</dd></div>
+        <div><dt>100%</dt><dd>plots with ready title deeds</dd></div>
+        <div><dt>6</dt><dd>schemes across Njoro</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero__plan reveal reveal--delay">
+      <svg viewBox="0 0 420 460" class="plan" role="img" aria-label="Scale diagram of a 50 by 100 foot plot">
+        <defs>
+          <pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse">
+            <path d="M 14 0 L 0 0 0 14" fill="none" stroke="var(--line)" stroke-width="1"/>
+          </pattern>
+        </defs>
+        <rect x="0" y="0" width="420" height="460" fill="url(#grid)" opacity="0.6"/>
+
+        <!-- compass -->
+        <g transform="translate(372,40)" class="compass">
+          <circle r="26" fill="none" stroke="var(--ink)" stroke-width="1.5"/>
+          <line x1="0" y1="-20" x2="0" y2="20" stroke="var(--ink)" stroke-width="1.5"/>
+          <line x1="-20" y1="0" x2="20" y2="0" stroke="var(--ink)" stroke-width="1"/>
+          <path d="M0,-20 L-5,-9 L5,-9 Z" fill="var(--clay)"/>
+          <text x="0" y="-30" text-anchor="middle" class="plan__label">N</text>
+        </g>
+
+        <!-- plot -->
+        <rect x="70" y="120" width="180" height="240" fill="var(--stone-50)" stroke="var(--ink)" stroke-width="2.5"/>
+
+        <!-- corner beacons -->
+        <circle cx="70" cy="120" r="5" class="beacon"/>
+        <circle cx="250" cy="120" r="5" class="beacon"/>
+        <circle cx="70" cy="360" r="5" class="beacon"/>
+        <circle cx="250" cy="360" r="5" class="beacon"/>
+
+        <!-- width dimension (50 ft) -->
+        <line x1="70" y1="95" x2="250" y2="95" stroke="var(--ink)" stroke-width="1"/>
+        <line x1="70" y1="88" x2="70" y2="102" stroke="var(--ink)" stroke-width="1"/>
+        <line x1="250" y1="88" x2="250" y2="102" stroke="var(--ink)" stroke-width="1"/>
+        <text x="160" y="82" text-anchor="middle" class="plan__dim">50 ft</text>
+
+        <!-- height dimension (100 ft) -->
+        <line x1="285" y1="120" x2="285" y2="360" stroke="var(--ink)" stroke-width="1"/>
+        <line x1="278" y1="120" x2="292" y2="120" stroke="var(--ink)" stroke-width="1"/>
+        <line x1="278" y1="360" x2="292" y2="360" stroke="var(--ink)" stroke-width="1"/>
+        <text x="303" y="244" text-anchor="middle" class="plan__dim" transform="rotate(90 303 244)">100 ft</text>
+
+        <text x="160" y="245" text-anchor="middle" class="plan__area">1/8 ACRE</text>
+        <text x="160" y="264" text-anchor="middle" class="plan__area plan__area--sub">PLOT NO. NJR-0142</text>
+
+        <!-- stamp -->
+        <g transform="translate(90,395) rotate(-8)" class="stamp">
+          <circle r="40" fill="none" stroke="var(--clay)" stroke-width="2"/>
+          <circle r="34" fill="none" stroke="var(--clay)" stroke-width="1"/>
+          <text x="0" y="-8" text-anchor="middle" class="stamp__text">GENUINE</text>
+          <text x="0" y="6" text-anchor="middle" class="stamp__text">TITLE</text>
+          <text x="0" y="20" text-anchor="middle" class="stamp__text stamp__text--sm">TRASHA AGENCIES</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section class="trust">
+  <div class="wrap trust__inner">
+    <span>Ready title deeds</span>
+    <span class="dot">·</span>
+    <span>Visible corner beacons</span>
+    <span class="dot">·</span>
+    <span>Registered survey plans</span>
+    <span class="dot">·</span>
+    <span>Ministry of Lands searches available</span>
+    <span class="dot">·</span>
+    <span>Flexible instalments</span>
+  </div>
+</section>
+
+<!-- ============ WHY NJORO ============ -->
+<section class="section" id="njoro">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--center">Why Nakuru County</p>
+    <h2 class="section__title section__title--center">The highlands are quietly filling up</h2>
+    <p class="section__lead section__lead--center">From Njoro to Gilgil, Lanet and Ngata, our plots sit on cool, fertile ground across Nakuru County — close enough to the city, far enough from the noise.</p>
+
+    <div class="grid grid--3 why">
+      <article class="why__card reveal">
+        <span class="why__num">01</span>
+        <h3>Minutes from Egerton University</h3>
+        <p>A steady stream of students, lecturers and staff keeps rental demand high year-round for anyone building near town.</p>
+      </article>
+      <article class="why__card reveal">
+        <span class="why__num">02</span>
+        <h3>20 minutes to Nakuru CBD</h3>
+        <p>Tarmac along the Nakuru–Njoro–Mau Narok road puts the county capital, markets and hospitals within easy reach.</p>
+      </article>
+      <article class="why__card reveal">
+        <span class="why__num">03</span>
+        <h3>Fertile, well-drained soil</h3>
+        <p>Njoro's red volcanic soil supports wheat, maize, dairy and horticulture — land here works for you even before you build.</p>
+      </article>
+      <article class="why__card reveal">
+        <span class="why__num">04</span>
+        <h3>Cool highland climate</h3>
+        <p>Sitting above 2,100m, Njoro avoids the heat and flooding that trouble lower parts of the county.</p>
+      </article>
+      <article class="why__card reveal">
+        <span class="why__num">05</span>
+        <h3>Piped water & power on-grid</h3>
+        <p>Most of our schemes sit along existing water and electricity lines, cutting your connection costs significantly.</p>
+      </article>
+      <article class="why__card reveal">
+        <span class="why__num">06</span>
+        <h3>Genuine, searchable titles</h3>
+        <p>Every plot is registered at the Nakuru Lands office. We encourage buyers to conduct an independent search before paying.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AVAILABLE PLOTS ============ -->
+<section class="section section--alt" id="plots">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--center">Current Inventory</p>
+    <h2 class="section__title section__title--center">Available plots</h2>
+    <p class="section__lead section__lead--center">Every plot below is 50 × 100 ft (1/8 acre) with a registered survey plan. Prices are per plot, cash or instalments.</p>
+
+    <div class="filters" id="filters">
+      <button class="filter is-active" data-filter="all">All</button>
+      <button class="filter" data-filter="available">Available</button>
+      <button class="filter" data-filter="limited">Limited</button>
+    </div>
+
+    <div class="grid grid--3 plots" id="plotGrid">
+
+      <article class="plot-card" data-status="available">
+        <img class="plot-card__img" src="img/maili-tatu.jpg" alt="Prime plots for sale at Maili Tatu, 50 by 100, Trasha Agencies flyer" loading="lazy">
+        <div class="plot-card__body">
+          <div class="plot-card__top">
+            <span class="tag tag--available">Available</span>
+            <span class="plot-code">MTT-01</span>
+          </div>
+          <h3>Maili Tatu</h3>
+          <p class="plot-loc">Developed neighbourhood · good roads · water &amp; electricity</p>
+          <div class="plot-meta"><span>50 × 100 ft</span><span>·</span><span>1/8 acre</span></div>
+          <div class="plot-price">Ksh 950,000</div>
+          <a href="#contact" class="plot-cta">Enquire about this plot →</a>
+        </div>
+      </article>
+
+      <article class="plot-card" data-status="available">
+        <img class="plot-card__img" src="img/gilgil.jpg" alt="Affordable plots for sale at Gilgil, 50 by 100, Trasha Agencies flyer" loading="lazy">
+        <div class="plot-card__body">
+          <div class="plot-card__top">
+            <span class="tag tag--available">Available</span>
+            <span class="plot-code">GLG-01</span>
+          </div>
+          <h3>Gilgil</h3>
+          <p class="plot-loc">Ready title deed · water &amp; electricity on site</p>
+          <div class="plot-meta"><span>50 × 100 ft</span><span>·</span><span>1/8 acre</span></div>
+          <div class="plot-price">Ksh 400,000</div>
+          <a href="#contact" class="plot-cta">Enquire about this plot →</a>
+        </div>
+      </article>
+
+      <article class="plot-card" data-status="limited">
+        <img class="plot-card__img" src="img/free-area.jpg" alt="Premium prime plots for sale at Free Area, 50 by 100, Trasha Agencies flyer" loading="lazy">
+        <div class="plot-card__body">
+          <div class="plot-card__top">
+            <span class="tag tag--reserved">Limited</span>
+            <span class="plot-code">FRA-01</span>
+          </div>
+          <h3>Free Area</h3>
+          <p class="plot-loc">Premium prime location · schools, hospitals &amp; shopping nearby</p>
+          <div class="plot-meta"><span>50 × 100 ft</span><span>·</span><span>1/8 acre</span></div>
+          <div class="plot-price">Ksh 10,000,000</div>
+          <a href="#contact" class="plot-cta">Enquire about this plot →</a>
+        </div>
+      </article>
+
+      <article class="plot-card" data-status="available">
+        <img class="plot-card__img" src="img/kihingo.jpg" alt="Plots for sale at Kihingo, 50 by 100, Trasha Agencies flyer" loading="lazy">
+        <div class="plot-card__body">
+          <div class="plot-card__top">
+            <span class="tag tag--available">Available</span>
+            <span class="plot-code">KHG-01</span>
+          </div>
+          <h3>Kihingo</h3>
+          <p class="plot-loc">Developed neighbourhood · good access roads</p>
+          <div class="plot-meta"><span>50 × 100 ft</span><span>·</span><span>1/8 acre</span></div>
+          <div class="plot-price">Ksh 400,000</div>
+          <a href="#contact" class="plot-cta">Enquire about this plot →</a>
+        </div>
+      </article>
+
+      <article class="plot-card" data-status="limited">
+        <img class="plot-card__img" src="img/ngesha.jpg" alt="Plots for sale at Ngesha, 50 by 100, Trasha Agencies flyer" loading="lazy">
+        <div class="plot-card__body">
+          <div class="plot-card__top">
+            <span class="tag tag--reserved">Limited</span>
+            <span class="plot-code">NGS-01</span>
+          </div>
+          <h3>Ngesha</h3>
+          <p class="plot-loc">Schools, shopping &amp; hospitals within reach</p>
+          <div class="plot-meta"><span>50 × 100 ft</span><span>·</span><span>1/8 acre</span></div>
+          <div class="plot-price">Ksh 750,000</div>
+          <a href="#contact" class="plot-cta">Enquire about this plot →</a>
+        </div>
+      </article>
+
+      <article class="plot-card" data-status="available">
+        <img class="plot-card__img" src="img/lanet.jpg" alt="Plots for sale at Lanet, 50 by 100, Trasha Agencies flyer" loading="lazy">
+        <div class="plot-card__body">
+          <div class="plot-card__top">
+            <span class="tag tag--available">Available</span>
+            <span class="plot-code">LNT-01</span>
+          </div>
+          <h3>Lanet</h3>
+          <p class="plot-loc">Prime location · affordable, ready title deeds</p>
+          <div class="plot-meta"><span>50 × 100 ft</span><span>·</span><span>1/8 acre</span></div>
+          <div class="plot-price">Ksh 1,700,000</div>
+          <a href="#contact" class="plot-cta">Enquire about this plot →</a>
+        </div>
+      </article>
+
+      <article class="plot-card" data-status="available">
+        <img class="plot-card__img" src="img/njokerio.jpg" alt="Affordable prime plots for sale at Njokerio, 50 by 100, Trasha Agencies flyer" loading="lazy">
+        <div class="plot-card__body">
+          <div class="plot-card__top">
+            <span class="tag tag--available">Available</span>
+            <span class="plot-code">NJK-01</span>
+          </div>
+          <h3>Njokerio</h3>
+          <p class="plot-loc">Affordable prime plots · ready title deeds</p>
+          <div class="plot-meta"><span>50 × 100 ft</span><span>·</span><span>1/8 acre</span></div>
+          <div class="plot-price">Ksh 550,000</div>
+          <a href="#contact" class="plot-cta">Enquire about this plot →</a>
+        </div>
+      </article>
+
+      <article class="plot-card" data-status="limited">
+        <img class="plot-card__img" src="img/ngata.jpg" alt="Premium prime 1 acre plots for sale at Ngata, Trasha Agencies flyer" loading="lazy">
+        <div class="plot-card__body">
+          <div class="plot-card__top">
+            <span class="tag tag--reserved">Limited</span>
+            <span class="plot-code">NGT-01</span>
+          </div>
+          <h3>Ngata</h3>
+          <p class="plot-loc">Premium prime location · full social amenities</p>
+          <div class="plot-meta"><span>1 acre (approx.)</span></div>
+          <div class="plot-price">Ksh 10,000,000</div>
+          <a href="#contact" class="plot-cta">Enquire about this plot →</a>
+        </div>
+      </article>
+
+      <article class="plot-card" data-status="available">
+        <img class="plot-card__img" src="img/jordan.jpg" alt="Quarter acre plot for sale at Jordan, Trasha Agencies flyer" loading="lazy">
+        <div class="plot-card__body">
+          <div class="plot-card__top">
+            <span class="tag tag--available">Available</span>
+            <span class="plot-code">JRD-01</span>
+          </div>
+          <h3>Jordan</h3>
+          <p class="plot-loc">Prime plots in a growing location, all inclusive</p>
+          <div class="plot-meta"><span>1/4 acre</span></div>
+          <div class="plot-price">Ksh 1,700,000</div>
+          <a href="#contact" class="plot-cta">Enquire about this plot →</a>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="plots__note">Listings and prices above are taken from Trasha Agencies' own flyers — swap the images and figures here any time your inventory changes, and this grid updates instantly.</p>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section" id="process">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--center">The Process</p>
+    <h2 class="section__title section__title--center">From site visit to title deed</h2>
+
+    <ol class="steps">
+      <li class="steps__item reveal">
+        <span class="steps__num">01</span>
+        <div>
+          <h3>Visit the site</h3>
+          <p>We pick you up in Njoro or Nakuru town and walk the actual plot with you — beacons, access road and neighbours included.</p>
+        </div>
+      </li>
+      <li class="steps__item reveal">
+        <span class="steps__num">02</span>
+        <div>
+          <h3>Reserve your plot</h3>
+          <p>Pay a booking fee to hold your chosen plot while your lawyer or our office conducts a search at the Lands office.</p>
+        </div>
+      </li>
+      <li class="steps__item reveal">
+        <span class="steps__num">03</span>
+        <div>
+          <h3>Pay — cash or instalments</h3>
+          <p>Settle in full or spread payments over up to 6 months. We issue receipts and a sale agreement at every stage.</p>
+        </div>
+      </li>
+      <li class="steps__item reveal">
+        <span class="steps__num">04</span>
+        <div>
+          <h3>Transfer & collect your title</h3>
+          <p>Once payment is complete, we process the transfer and hand you a registered title deed in your name.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section section--alt" id="voices">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--center">From Our Buyers</p>
+    <h2 class="section__title section__title--center">Voices from Njoro</h2>
+
+    <div class="grid grid--3 voices">
+      <blockquote class="voice reveal">
+        <p>“I bought my plot in Egerton View while working in Nairobi. Trasha sent me photos and video of the actual beacons before I paid a single shilling.”</p>
+        <cite>— Peter K., Egerton View Estate</cite>
+      </blockquote>
+      <blockquote class="voice reveal">
+        <p>“The title deed came within two months of my final payment, exactly as they said it would. No chasing, no excuses.”</p>
+        <cite>— Grace W., Njoro Ridge Gardens</cite>
+      </blockquote>
+      <blockquote class="voice reveal">
+        <p>“I liked that they encouraged me to do my own search at the Lands office before committing. That told me they had nothing to hide.”</p>
+        <cite>— Daniel M., Mauche Green Acres</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="wrap contact__inner">
+    <div class="contact__copy reveal">
+      <p class="eyebrow">Get In Touch</p>
+      <h2 class="section__title">Come see the ground for yourself</h2>
+      <p class="section__lead">Our office is in Njoro town. Book a free site visit, or send us your details and we'll call you back within a day.</p>
+
+      <ul class="contact__list">
+        <li><strong>Office</strong><span>AIC Business Centre, near Njoro Police Station — 1st Floor, Room 27</span></li>
+        <li><strong>Phone / WhatsApp</strong><span><a href="tel:0722977819">0722 977 819</a></span></li>
+        <li><strong>Email</strong><span>info@trashaagencies.co.ke</span></li>
+        <li><strong>Hours</strong><span>Mon – Sat, 8:00am – 5:00pm</span></li>
+      </ul>
+    </div>
+
+    <form class="contact__form reveal reveal--delay" id="contactForm">
+      <label>
+        Full name
+        <input type="text" name="name" placeholder="e.g. Jane Wanjiru" required>
+      </label>
+      <label>
+        Phone number
+        <input type="tel" name="phone" placeholder="07XX XXX XXX" required>
+      </label>
+      <label>
+        Which plot interests you?
+        <select name="plot">
+          <option>Not sure yet — advise me</option>
+          <option>Njoro Ridge Gardens</option>
+          <option>Egerton View Estate</option>
+          <option>Lare Road Plots</option>
+          <option>Mauche Green Acres</option>
+          <option>Njoro Highlands Phase II</option>
+        </select>
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="3" placeholder="Tell us when you'd like to visit..."></textarea>
+      </label>
+      <button type="submit" class="btn btn--clay btn--full">Send enquiry</button>
+      <p class="contact__form-note" id="formNote"></p>
+    </form>
+  </div>
+
+  <div class="map">
+    <iframe
+      title="Map of Njoro, Nakuru County, Kenya"
+      src="https://www.google.com/maps?q=Njoro,+Nakuru+County,+Kenya&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="brand">
+      <img src="img/logo.png" alt="Trasha Commercial Agencies logo" class="brand__mark brand__mark--footer">
+      <span class="brand__name">Trasha Agencies</span>
+    </div>
+    <p class="footer__tag">Registered land dealers, Njoro, Nakuru County.</p>
+    <nav class="footer__links">
+      <a href="#plots">Plots</a>
+      <a href="#njoro">Why Njoro</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="footer__copy">© <span id="year"></span> Trasha Agencies. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
